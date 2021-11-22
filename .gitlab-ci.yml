@@ -39,8 +39,8 @@ unit-test-job:   # This job runs in the test stage.
         alias: mongo
   variables:
     MONGODB_URI: "mongodb://mongo:27017/serverTestDB" #sets the variable MONGODB_URI as an environment variable for the tests
-    script:
-      - echo "Code coverage is 90%"
+  script:
+    - echo "Code coverage is 90%"
     # - cd server
     # - npm run test
     # The 2 lines above need to be uncommented when the structure of the folders is decided. And this for each repo
