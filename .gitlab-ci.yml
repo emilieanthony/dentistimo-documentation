@@ -13,6 +13,8 @@
 #
 # For more information, see: https://docs.gitlab.com/ee/ci/yaml/index.html#stages
 
+image: node:14-alpine #import the image of node.js
+
 stages:          # List of stages for jobs, and their order of execution
   - build
   - test
@@ -20,15 +22,28 @@ stages:          # List of stages for jobs, and their order of execution
 
 build-job:       # This job runs in the build stage, which runs first.
   stage: build
+  tags:
+    - docker
   script:
-    - echo "Compiling the code..."
+    # - cd <insert name of file> #enter to the repo
+    # - npm install #build the node code based on je package.json file
+    # The 2 lines above need to be uncommented when the structure of the folders is decided. And this for each repo
     - echo "Compile complete."
 
 unit-test-job:   # This job runs in the test stage.
-  stage: test    # It only starts when the job in the build stage completes successfully.
-  script:
-    - echo "Running unit tests... This will take about 60 seconds."
-    - sleep 60
+  stage: test 
+  tags:
+    - docker
+  services:
+      - name: mvertes/alpine-mongo:latest #calls the mongodb service
+        alias: mongo
+  variables:
+    MONGODB_URI: "mongodb://mongo:27017/serverTestDB" #sets the variable MONGODB_URI as an environment variable for the tests
+    script:
+    # - cd server
+    # - npm run test
+    # The 2 lines above need to be uncommented when the structure of the folders is decided. And this for each repo
+
     - echo "Code coverage is 90%"
 
 lint-test-job:   # This job also runs in the test stage.
