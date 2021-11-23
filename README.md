@@ -37,6 +37,10 @@ Alexandre Rancati-Palmer, Ann-Sofie Eriksson, Ina Johnson, Astrid Berntsson, Olg
    4. Architectural styles such as Pipe-and-Filter, Publish/subscribe and Client/server are supposed to be combined
    5. The system should not crash
 
-  ## Software architecture document (SAD)
-     Forces and Drivers
+  ## Software architecture
+We are planning to use a mix of different architectural styles. The architectural styles we will use are pub/sub, event-driven and client-server. Pub/sub will be used to enable components to publish and/or subscribe to different topics. Basically it’s the way components will communicate with eachother. Event-driven is used with the MQTT being event mediator and components being event processors. Client-server style will be used to create separation between backend and frontend. 
+
+We are planning to base our backend on node.js and use mongoose to connect it to our mongoDB database. The frontend will be based on Vuejs
+     
+    
 
