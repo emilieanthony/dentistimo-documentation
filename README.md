@@ -42,7 +42,17 @@ We are planning to use a mix of different architectural styles. The architectura
 
 We are planning to base our backend on node.js and use mongoose to connect it to our mongoDB database. The frontend will be based on Vuejs
 
+#### Version 1 
+This is the architectural style used for the second sprint.
+- A combination between HTTP and MQTT is used.
+
+![Architecture_-_version_1](/uploads/ebc6464297684d7a7b91a2e58988964e/Architecture_-_version_1.png)
+
 #### Version 2
+For the third sprint, changes were made in the architecture. Some of the changes include:
+- MQTT is not combined with HTTP. MQTT connection is instead added to the client, and API middleware is deleted.
+- A booking validator component and a user handler are added.
+
 
 ![Architecture_-_version_2](/uploads/1c4744db85ef437f4eddc3bb0102bc82/Architecture_-_version_2.png)
      
