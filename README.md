@@ -41,6 +41,10 @@ Alexandre Rancati-Palmer, Ann-Sofie Eriksson, Ina Johnson, Astrid Berntsson, Olg
 We are planning to use a mix of different architectural styles. The architectural styles we will use are pub/sub, event-driven and client-server. Pub/sub will be used to enable components to publish and/or subscribe to different topics. Basically it’s the way components will communicate with eachother. Event-driven is used with the MQTT being event mediator and components being event processors. Client-server style will be used to create separation between backend and frontend. 
 
 We are planning to base our backend on node.js and use mongoose to connect it to our mongoDB database. The frontend will be based on Vuejs
+
+#### Version 2
+
+![Architecture_-_version_2](/uploads/1c4744db85ef437f4eddc3bb0102bc82/Architecture_-_version_2.png)
      
     
 
