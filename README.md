@@ -4,7 +4,14 @@ Alexandre Rancati-Palmer, Ann-Sofie Eriksson, Ina Johnson, Astrid Berntsson, Olg
 ## Task description
 
 # Links
- [Project trello board](https://trello.com/invite/b/jtnMl95E/05f9da2a77845b0d3ce68a2759902cff/dit355-team-5)
+ - [Project Trello board](https://trello.com/invite/b/jtnMl95E/05f9da2a77845b0d3ce68a2759902cff/dit355-team-5)
+
+ # Components
+
+ - [Clinic handler](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-clinics-service)
+ - [Booking handler](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/booking-handler)
+ - [Availability checking](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/availability-checker)
+  - [GUI](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-client)
 
 # Software requirement specification (SRS)
 
