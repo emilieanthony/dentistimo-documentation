@@ -1,5 +1,11 @@
 ## Team-5 
-Alexandre Rancati-Palmer, Ann-Sofie Eriksson, Ina Johnson, Astrid Berntsson, Olga Ratushniak, Emilie Anthony, Christopher Axt
+- Alexandre Rancati-Palmer
+- Ann-Sofie Eriksson
+- Ina Johnson
+- Astrid Berntsson
+- Olga Ratushniak
+- Emilie Anthony
+- Christopher Axt
 
 ## Task description
 
