@@ -15,9 +15,10 @@
  # Components
 
  - [Clinic handler](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-clinics-service)
+ - [Time slot generator](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team5-time_slot_generator)
  - [Booking handler](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/booking-handler)
  - [Availability checking](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/availability-checker)
-  - [GUI](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-client)
+- [GUI](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-client)
 
 # Software requirement specification (SRS)
 
