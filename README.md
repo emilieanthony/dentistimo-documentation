@@ -65,10 +65,10 @@ This is the architectural style used for the second sprint.
 #### Version 2
 For the third sprint, changes were made in the architecture. Some of the changes include:
 - MQTT is not combined with HTTP. MQTT connection is instead added to the client, and API middleware is deleted.
-- A booking validator component and a user handler are added.
+- An availability checker component has been added. 
 
 
-![Architecture_-_version_2](/uploads/1c4744db85ef437f4eddc3bb0102bc82/Architecture_-_version_2.png)
+![_Current_state__System_Component_Diagram-21_dec.drawio](/uploads/044cc5d4d629e5d7f77e836871bdff5f/_Current_state__System_Component_Diagram-21_dec.drawio.png)
      
     
 
