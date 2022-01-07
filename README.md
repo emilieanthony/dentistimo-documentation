@@ -54,18 +54,7 @@
   ## Software Architecture Diagrams
 We are planning to use a mix of different architectural styles. The architectural styles we will use are pub/sub, event-driven and client-server. Pub/sub will be used to enable components to publish and/or subscribe to different topics. Basically it’s the way components will communicate with eachother. Event-driven is used with the MQTT being event mediator and components being event processors. Client-server style will be used to create separation between backend and frontend. 
 
-We are planning to base our backend on node.js and use mongoose to connect it to our mongoDB database. The frontend will be based on Vuejs
-
-#### Version 1 
-This is the architectural style used for the second sprint.
-- A combination between HTTP and MQTT is used.
-
-![Architecture_-_version_1](/uploads/ebc6464297684d7a7b91a2e58988964e/Architecture_-_version_1.png)
-
-#### Version 2
-For the third sprint, changes were made in the architecture. Some of the changes include:
-- MQTT is not combined with HTTP. MQTT connection is instead added to the client, and API middleware is deleted.
-- An availability checker component has been added. 
+We are planning to base our backend on node.js and use mongoose to connect it to our mongoDB database. The frontend will be based on Vue.js 
 
 
 ![_Current_state__System_Component_Diagram-21_dec.drawio](/uploads/044cc5d4d629e5d7f77e836871bdff5f/_Current_state__System_Component_Diagram-21_dec.drawio.png)
