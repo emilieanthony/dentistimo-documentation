@@ -1,16 +1,6 @@
-## Team-5 
-- Alexandre Rancati-Palmer
-- Ann-Sofie Eriksson
-- Ina Johnson
-- Astrid Berntsson
-- Olga Ratushniak
-- Emilie Anthony
-- Christopher Axt
+# Team-5 Dentistimo Documentation
 
 ## Task description
-
-# Links
- - [Project Trello board](https://trello.com/invite/b/jtnMl95E/05f9da2a77845b0d3ce68a2759902cff/dit355-team-5)
 
  # Components
 
@@ -58,6 +48,48 @@ We are planning to base our backend on node.js and use mongoose to connect it to
 
 
 ![_Current_state__System_Component_Diagram-21_dec.drawio](/uploads/044cc5d4d629e5d7f77e836871bdff5f/_Current_state__System_Component_Diagram-21_dec.drawio.png)
-     
+
+## Technical specification
+
+ ### Fault tolerance
+  Taking into consideration that some sort of fault tolerance should be implemented into the system, the team selected Time-slot-generator as the   component and implement fault tolerance in form of a circuit breaker. The circuit breaker will aid the time-slot-generator in..
+
+ ### Quality of service
+
+ ## Technologies
+
+ ### Software
+  
+ - [ NPM ](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing) 
+ - [ Vue.js ](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing)
+ - [ Opossum ](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing)
+ - [ Bootstrap Vue ](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing) 
+ - [ Mapbox ](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing)
+ - [ Vuex ](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing)
+ - [ MQTT](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing)
+
+ ### Project Management
+ 
+ - [ Google Drive ](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing)
+ - [ Trello board ](https://trello.com/invite/b/jtnMl95E/05f9da2a77845b0d3ce68a2759902cff/dit355-team-5)
+ - [ Diagrams.net ](https://app.diagrams.net/?src=about)
+ - [ Gitlab Team-5 ](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5)
+           
+  Commits in our repositories can be traced to tasks on trello board
+  
+
+
+## Team members
+ - Alexandre Rancati-Palmer
+ - Ann-Sofie Eriksson
+ - Ina Johnson
+ - Astrid Berntsson
+ - Olga Ratushniak
+ - Emilie Anthony
+ - Christopher Axt
+
+  ### Roles
+   Roles for each sprint ( See [Trello] (https://trello.com/b/jtnMl95E/dit355-team-5) `roles` column)
+
     
 
