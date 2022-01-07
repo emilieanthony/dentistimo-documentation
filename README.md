@@ -46,12 +46,12 @@ Dentistimo is a web application that offers a geolocalisation based dental care 
    5. The system should not crash
 
   ## Software Architecture Diagrams
-We are planning to use a mix of different architectural styles. The architectural styles we will use are pub/sub, event-driven and client-server. Pub/sub will be used to enable components to publish and/or subscribe to different topics. Basically it’s the way components will communicate with eachother. Event-driven is used with the MQTT being event mediator and components being event processors. Client-server style will be used to create separation between backend and frontend. 
+We use a mix of different architectural styles. The architectural styles we use are pub/sub, event-driven and client-server. Pub/sub will is used to enable components to publish and/or subscribe to different topics. Basically it’s the way components will communicate with each other. Event-driven is used with the MQTT being event mediator and components being event processors. Client-server style will be used to create separation between backend and frontend. 
 
-We are planning to base our backend on node.js and use mongoose to connect it to our mongoDB database. The frontend will be based on Vue.js 
+We base our backend on node.js and use mongoose to connect it to our mongoDB database. The frontend will be based on Vue.js 
 
 
-![_Current_state__System_Component_Diagram-21_dec.drawio](/uploads/044cc5d4d629e5d7f77e836871bdff5f/_Current_state__System_Component_Diagram-21_dec.drawio.png)
+![_Current_state__System_Component_Diagram-7_jan.drawio](/uploads/1b6e1034386a6dfe53115cd98fffcf56/_Current_state__System_Component_Diagram-7_jan.drawio.png)
 
 ## Technical specification
 
