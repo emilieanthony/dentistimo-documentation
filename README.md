@@ -1,5 +1,9 @@
 # Team-5 Dentistimo Documentation
 
+## What is Dentistimo?
+
+Dentistimo is a web application that offers a geolocalisation based dental care booking system. To book an appointment users can choose a dentist from the map, choose a time and fill in their details. 
+
 ## Task description
 
  # Components
