@@ -4,15 +4,26 @@
 
 Dentistimo is a web application that offers a geolocalisation based dental care booking system. To book an appointment users can choose a dentist from the map, choose a time and fill in their details. 
 
-## Task description
+The purpose of Dentistimo is to provide an interface which users can use to book dentist appointments in Gothenburg. The interface will guide the user through the whole process and enable them to complete their booking from their own device.
+
+Dentistimo is developed in an effort to try an ease the pressure on the already fully booked dentist clinics. Instead of having to search through multiple, complicated booking systems, Dentistimo makes it easy for the user by gathering all clinics in Gothenburg on a map so the user can see which clinic is closest to them. Then the user can navigate to the specific booking page and recieve a booking confirmation.
+
+The system is built around a map API which helps displays all clinics in Gothenburg. 
 
  # Components
 
+  A link is provided to the repositories of the components are provided. In each repository, a detailed description of each components responsibilities are also provided
+
  - [Clinic handler](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-clinics-service)
+
  - [Time slot generator](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team5-time_slot_generator)
+
  - [Booking handler](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/booking-handler)
+
  - [Availability checking](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/availability-checker)
+
 - [GUI](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-client)
+
 
 # Software requirement specification (SRS)
 
@@ -45,12 +56,32 @@ Dentistimo is a web application that offers a geolocalisation based dental care 
    4. Architectural styles such as Pipe-and-Filter, Publish/subscribe and Client/server are supposed to be combined
    5. The system should not crash
 
-  ## Software Architecture Diagrams
+ # Software Architecture 
+
+ ## Architectural styles
 We use a mix of different architectural styles. The architectural styles we use are pub/sub, event-driven and client-server. Pub/sub will is used to enable components to publish and/or subscribe to different topics. Basically it’s the way components will communicate with each other. Event-driven is used with the MQTT being event mediator and components being event processors. Client-server style will be used to create separation between backend and frontend. 
 
 We base our backend on node.js and use mongoose to connect it to our mongoDB database. The frontend will be based on Vue.js 
 
+## Architectural drivers
+  - Availability
 
+     In order for a user to book an appointment at any time, the system must be running and available most of the time. Otherwise, it is          inconvenient for potential patients and there is a risk that the clinics lose business opportunities.
+
+  - Usability
+
+     usability is an important architectural driver as a prominent part of the system is the graphical user interface. As we cannot assume that the target user is familiar with the user interface previously, the system should allow the user to achieve their goal, i.e. book an appointment, in an effective, efficient and satisfactory way. 
+
+  - Scalability & Modifiability
+
+  The Dentisimo service is right now available to residents in Gothenburg. However, the system might expand in the future and therefore it is important that the system can scale in a time efficient and cost effective way. This also includes changing already existing resources and functionality. 
+
+  - Maintainability
+
+Maintainability is also an architectural driver as it impacts the level of ease in which the system can be maintained in to e.g. maximise the system’s useful life, meet new requirements and cope with a changing environment.
+
+
+ ## Architecture component diagram
 ![_Current_state__System_Component_Diagram-7_jan.drawio](/uploads/1b6e1034386a6dfe53115cd98fffcf56/_Current_state__System_Component_Diagram-7_jan.drawio.png)
 
 ## Technical specification
