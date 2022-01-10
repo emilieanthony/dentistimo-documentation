@@ -112,6 +112,8 @@ Event-driven is used with the MQTT being event mediator and components being eve
 
 Client-server style will be used to create separation between backend and frontend. 
 
+- Pipe-filter
+
 ## Technical specification
 
  ### Fault tolerance
