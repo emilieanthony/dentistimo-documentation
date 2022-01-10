@@ -68,11 +68,11 @@ and allow users to book an appointment at a chosen clinic.
 ## Cancelled (Choose not to implement)
 
   3. The system should allow the patients to cancel their bookings. <br>
-    - Cancelled due to time constraints
+    - Cancelled due to low priority from start and time constraints
   17. The system should send a confirmation/rejection message to the user when they cancel a booking <br>
-    - Cancelled due to time constraints.
+    - Cancelled due to choice of not allowing users to cancel their bookings
   7. The time slots should be visualised (color, symbol etc). <br>
-    - Cancelled due to time constraints. 
+    - Solved by only displaying available time slots to the user and the team therefore decided that colour visualisation was redundant. 
 
 
  # Software Architecture 
