@@ -31,11 +31,9 @@ The system is built around a map API which helps displays all clinics in Gothenb
    
   1. The system should have one user interface.
   2. The system should allow patients to book a dentist appointment
-  3. The system should allow the patients to cancel their bookings.
   4. The system should use middleware based on MQTT.
   5. The system shall display a navigable Map view of dentists' location in Gothenburg.
   6. The system should allow patients to view available time slots.
-  7. The time slots should be visualised (color, symbol etc).
   8. A time slot should be 30 min starting every half or full hour
   9. The system should allow the dentist to have a lunch break (60 min).
   10. The system should allow the dentist to have a fika break (30 min).
@@ -45,7 +43,6 @@ The system is built around a map API which helps displays all clinics in Gothenb
   14. The system should provide the patient with feedback regarding their inputs.
   15. The system should allow the user to search/sort for an appointment. 
   16. The system should send a confirmation/rejection message to the user when they make a booking. 
-  17. The system should send a confirmation/rejection message to the user when they cancel a booking.
   18. The system should display information about the clinics. 
 
   ## Non-functional requirements
@@ -55,6 +52,13 @@ The system is built around a map API which helps displays all clinics in Gothenb
    3. The system should be fault tolerant 
    4. Architectural styles such as Pipe-and-Filter, Publish/subscribe and Client/server are supposed to be combined
    5. The system should not crash
+
+## Cancelled (Choose not to implement)
+
+  3. The system should allow the patients to cancel their bookings.
+  17. The system should send a confirmation/rejection message to the user when they cancel a booking.
+  7. The time slots should be visualised (color, symbol etc).
+
 
  # Software Architecture 
 
