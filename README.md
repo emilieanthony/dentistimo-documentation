@@ -32,6 +32,10 @@ The system is built around a map API which helps displays all clinics in Gothenb
 
 - [GUI](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-client)
 
+The GUI displays an interactive map allowing users to navigate to dentist practices
+and allow users to book an appointment at a chosen clinic.
+
+
 
 # Software requirement specification (SRS)
 
