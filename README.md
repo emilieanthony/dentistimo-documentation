@@ -143,6 +143,8 @@ The components in the backend of this system use a QOS level 1 since we want to 
  - [ Trello board ](https://trello.com/invite/b/jtnMl95E/05f9da2a77845b0d3ce68a2759902cff/dit355-team-5)
  - [ Diagrams.net ](https://app.diagrams.net/?src=about)
  - [ Gitlab Team-5 ](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5)
+ - [ Google calendar ](https://calendar.google.com/calendar/u/1?cid=Y19tbjZvbmNmaXA2OXBuanNibnFydXN1Z2RiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+
            
   Commits in our repositories can be traced to tasks on trello board
   
