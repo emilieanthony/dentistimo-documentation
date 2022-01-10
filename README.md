@@ -62,21 +62,6 @@ The system is built around a map API which helps displays all clinics in Gothenb
 
  # Software Architecture 
 
- ## Architectural styles
-We use a mix of different architectural styles. The architectural styles we use are:
-- Publish/subscribe
-
-Pub/sub will is used to enable components to publish and/or subscribe to different topics. Basically it’s the way components  will communicate with each other.
-
-- Event-driven
-
-Event-driven is used with the MQTT being event mediator and components being event processors.
-
-- Client-server
-
-Client-server style will be used to create separation between backend and frontend. 
- 
-
 ## Architectural drivers
   - Availability
 
@@ -97,6 +82,20 @@ Maintainability is also an architectural driver as it impacts the level of ease 
 
  ## Architecture component diagram
 ![_Current_state__System_Component_Diagram-7_jan.drawio](/uploads/1b6e1034386a6dfe53115cd98fffcf56/_Current_state__System_Component_Diagram-7_jan.drawio.png)
+
+ ## Architectural styles
+We use a mix of different architectural styles. The architectural styles we use are:
+- Publish/subscribe
+
+Pub/sub will is used to enable components to publish and/or subscribe to different topics. Basically it’s the way components  will communicate with each other.
+
+- Event-driven
+
+Event-driven is used with the MQTT being event mediator and components being event processors.
+
+- Client-server
+
+Client-server style will be used to create separation between backend and frontend. 
 
 ## Technical specification
 
