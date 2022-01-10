@@ -98,6 +98,32 @@ Maintainability is also an architectural driver as it impacts the level of ease 
  ## Architecture component diagram
 ![_Current_state__System_Component_Diagram-7_jan.drawio__1_](/uploads/8b98944c9d2e435fa724c4472ca4e884/_Current_state__System_Component_Diagram-7_jan.drawio__1_.png)
 
+**Timeslot generator**
+ - Triggered when a user picks a date on the booking page in the GUI
+ - Responsible for generating time slots based on dentist information
+ - Responsible for sending the unfilterd time slots to the Availability checker
+
+ **Clinic handler**
+ - Triggered by the frontend requesting dentist data
+  - Responsible for fetching dentist data from dentistry DB
+  - Store dentist data in our database
+  - Publish dentist data to frontend for the map view
+
+  **Booking handler**
+  - Triggered by the Availability checker when there is a valid booking request forwarded
+  - Responsible for creating new bookings
+  - Responsible for storing new bookings
+  - Responsible for publishing bookings
+
+  **Availability checker**
+  - Triggered by timeslots being forwarded by the Time slot generator.
+  - Responsible for forwarding filtered time slots to the frontend
+  - Responsible for checking if a chosen time slot has available appointments
+  - Responsible for validating booking requests and forward validated booking requests to the Booking handler
+
+  **Request generator**
+  - This component is responsible for creating requests for test purposes
+
  ## Architectural styles
 We use a mix of different architectural styles. The architectural styles we use are:
 - **Publish/subscribe**
