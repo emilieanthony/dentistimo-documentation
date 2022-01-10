@@ -167,7 +167,7 @@ The components in the backend of this system use a QOS level 1 since we want to 
  - Christopher Axt
 
   ### Roles
-   Roles for each sprint ( See [Trello] (https://trello.com/b/jtnMl95E/dit355-team-5) `roles` column)
+   Roles for each sprint, see [Trello](https://trello.com/b/jtnMl95E/dit355-team-5) `roles` column
 
     
 
