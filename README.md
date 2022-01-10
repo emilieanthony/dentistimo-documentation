@@ -148,6 +148,8 @@ The components in the backend of this system use a QOS level 1 since we want to 
 - By having bi-weekly sprint planning meetings, sprint reviews and sprint retrospectives, we could be flexible to change.
 - In order to keep track of the teams progress, we exercised daily stand-ups in written format. 
 - We also used Trello to manage our product backlog, sprint backlog and keep track of our progress.
+- In the later parts of the project, we estimated user stories and tasks using a minimalistic form of Planning Poker and added the story point to relevant cards on Trello.
+- The first sprint was dedicated to creating artefacts to help the project move forward, decide on architecture and set up repository structure. 
 
  ### Project management tools used
  
