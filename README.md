@@ -96,7 +96,7 @@ Maintainability is also an architectural driver as it impacts the level of ease 
 
 
  ## Architecture component diagram
-![_Current_state__System_Component_Diagram-7_jan.drawio](/uploads/1b6e1034386a6dfe53115cd98fffcf56/_Current_state__System_Component_Diagram-7_jan.drawio.png)
+![_Current_state__System_Component_Diagram-7_jan.drawio__1_](/uploads/8b98944c9d2e435fa724c4472ca4e884/_Current_state__System_Component_Diagram-7_jan.drawio__1_.png)
 
  ## Architectural styles
 We use a mix of different architectural styles. The architectural styles we use are:
