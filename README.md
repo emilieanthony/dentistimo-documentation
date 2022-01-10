@@ -121,6 +121,8 @@ Client-server style will be used to create separation between backend and fronte
 
  ### Quality of service
 
+The components in the backend of this system use a QOS level 1 since we want to guarantee that the message is delivered at least once
+
  ## Technologies
 
  ### Software
