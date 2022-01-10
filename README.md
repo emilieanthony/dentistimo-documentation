@@ -143,10 +143,10 @@ The components in the backend of this system use a QOS level 1 since we want to 
 
 ### Project methodology
 
-- We used Scrum, an agile development methodology used in the development of Software based on an iterative and incremental process.
+- We used Scrum, an agile development methodology based on an iterative and incremental process.
 - We worked as a self-organising cross-functional development team with assigned roles such as Product Owner and Scrum Master.
-- By having bi-weekly sprint planning meetings, sprint reviews and sprint retrospectives, we could be flexible to changes.
-- In order to keep track of the teams progrss, ee exercised daily stand-ups in written format. 
+- By having bi-weekly sprint planning meetings, sprint reviews and sprint retrospectives, we could be flexible to change.
+- In order to keep track of the teams progress, we exercised daily stand-ups in written format. 
 - We also used Trello to manage our product backlog, sprint backlog and keep track of our progress.
 
  ### Project management tools used
