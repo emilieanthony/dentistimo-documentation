@@ -136,19 +136,26 @@ The components in the backend of this system use a QOS level 1 since we want to 
  - [ Mapbox ](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing)
  - [ Vuex ](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing)
  - [ MQTT](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing)
+     
+  Commits in our repositories can be traced to tasks on Trello board
+  
+## Project management
 
- ### Project Management
+### Project methodology
+
+- We used Scrum, an agile development methodology used in the development of Software based on an iterative and incremental process.
+- We worked as a self-organising cross-functional development team with assigned roles such as Product Owner and Scrum Master.
+- By having bi-weekly sprint planning meetings, sprint reviews and sprint retrospectives, we could be flexible to changes.
+- In order to keep track of the teams progrss, ee exercised daily stand-ups in written format. 
+- We also used Trello to manage our product backlog, sprint backlog and keep track of our progress.
+
+ ### Project management tools used
  
  - [ Google Drive ](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing)
  - [ Trello board ](https://trello.com/invite/b/jtnMl95E/05f9da2a77845b0d3ce68a2759902cff/dit355-team-5)
  - [ Diagrams.net ](https://app.diagrams.net/?src=about)
  - [ Gitlab Team-5 ](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5)
  - [ Google calendar ](https://calendar.google.com/calendar/u/1?cid=Y19tbjZvbmNmaXA2OXBuanNibnFydXN1Z2RiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-
-           
-  Commits in our repositories can be traced to tasks on trello board
-  
-
 
 ## Team members
  - Alexandre Rancati-Palmer
