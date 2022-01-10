@@ -80,15 +80,15 @@ and allow users to book an appointment at a chosen clinic.
 ## Architectural drivers
   - Availability
 
-     In order for a user to book an appointment at any time, the system must be running and available most of the time. Otherwise, it is inconvenient for potential patients and there is a risk that the clinics lose business opportunities.
+In order for a user to book an appointment at any time, the system must be running and available most of the time. Otherwise, it is inconvenient for potential patients and there is a risk that the clinics lose business opportunities.
 
   - Usability
 
-     Usability is an important architectural driver as a prominent part of the system is the graphical user interface. As we cannot assume that the target user is familiar with the user interface previously, the system should allow the user to achieve their goal, i.e. book an appointment, in an effective, efficient and satisfactory way. 
+Usability is an important architectural driver as a prominent part of the system is the graphical user interface. As we cannot assume that the target user is familiar with the user interface previously, the system should allow the user to achieve their goal, i.e. book an appointment, in an effective, efficient and satisfactory way. 
 
   - Scalability & Modifiability
 
-  The Dentisimo service is right now available to residents in Gothenburg. However, the system might expand in the future and therefore it is important that the system can scale in a time efficient and cost effective way. This also includes changing already existing resources and functionality. 
+The Dentisimo service is right now available to residents in Gothenburg. However, the system might expand in the future and therefore it is important that the system can scale in a time efficient and cost effective way. This also includes changing already existing resources and functionality. 
 
   - Maintainability
 
