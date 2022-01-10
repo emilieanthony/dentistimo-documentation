@@ -14,23 +14,23 @@ The system is built around a map API which helps displays all clinics in Gothenb
 
   A link is provided to the repositories of the components are provided. In each repository, a detailed description of each components responsibilities are also provided
 
- - [Clinic handler](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-clinics-service)
+ - [**Clinic handler**](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-clinics-service)
 
  The Clinic handler fetches dentist data, stores it in the database and publishes dentist data to the frontend.
 
- - [Time slot generator](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team5-time_slot_generator)
+ - [**Time slot generator**](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team5-time_slot_generator)
 
  The Time slot generator generates time slots when a user choses a date in the GUI. 
 
- - [Booking handler](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/booking-handler)
+ - [**Booking handler**](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/booking-handler)
 
  The Booking handler creates new bookings and stores them in the database.
 
- - [Availability checker](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/availability-checker)
+ - [**Availability checker**](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/availability-checker)
 
  The Availability checker filters generated time slots so that the user is only shown available time slots. The component also validates booking request and forwards validated requests to the booking handler.
 
-- [GUI](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-client)
+- [**GUI**](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-client)
 
 The GUI displays an interactive map allowing users to navigate to dentist practices
 and allows users to book an appointment at a chosen clinic.
@@ -78,19 +78,19 @@ and allows users to book an appointment at a chosen clinic.
  # Software Architecture 
 
 ## Architectural drivers
-  - Availability
+  - **Availability**
 
 In order for a user to book an appointment at any time, the system must be running and available most of the time. Otherwise, it is inconvenient for potential patients and there is a risk that the clinics lose business opportunities.
 
-  - Usability
+  - **Usability**
 
 Usability is an important architectural driver as a prominent part of the system is the graphical user interface. As we cannot assume that the target user is familiar with the user interface previously, the system should allow the user to achieve their goal, i.e. book an appointment, in an effective, efficient and satisfactory way. 
 
-  - Scalability & Modifiability
+  - **Scalability & Modifiability**
 
 The Dentisimo service is right now available to residents in Gothenburg. However, the system might expand in the future and therefore it is important that the system can scale in a time efficient and cost effective way. This also includes changing already existing resources and functionality. 
 
-  - Maintainability
+  - **Maintainability**
 
 Maintainability is also an architectural driver as it impacts the level of ease in which the system can be maintained in to e.g. maximise the system’s useful life, meet new requirements and cope with a changing environment.
 
@@ -100,19 +100,19 @@ Maintainability is also an architectural driver as it impacts the level of ease 
 
  ## Architectural styles
 We use a mix of different architectural styles. The architectural styles we use are:
-- Publish/subscribe
+- **Publish/subscribe**
 
 Pub/sub will is used to enable components to publish and/or subscribe to different topics. Basically it’s the way components  will communicate with each other.
 
-- Event-driven
+- **Event-driven**
 
 Event-driven is used with the MQTT being event mediator and components being event processors.
 
-- Client-server
+- **Client-server**
 
 Client-server style will be used to create separation between backend and frontend. 
 
-- Pipe-filter
+- **Pipe-filter**
 
 ## Technical specification
 
