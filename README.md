@@ -61,9 +61,12 @@ The system is built around a map API which helps displays all clinics in Gothenb
 
 ## Cancelled (Choose not to implement)
 
-  3. The system should allow the patients to cancel their bookings.
-  17. The system should send a confirmation/rejection message to the user when they cancel a booking.
-  7. The time slots should be visualised (color, symbol etc).
+  3. The system should allow the patients to cancel their bookings. <br>
+    - Cancelled due to time constraints
+  17. The system should send a confirmation/rejection message to the user when they cancel a booking <br>
+    - Cancelled due to time constraints.
+  7. The time slots should be visualised (color, symbol etc). <br>
+    - Cancelled due to time constraints. 
 
 
  # Software Architecture 
