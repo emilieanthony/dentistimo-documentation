@@ -28,12 +28,12 @@ The system is built around a map API which helps displays all clinics in Gothenb
 
  - [Availability checking](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/availability-checker)
 
- The Availability checker filters generated time slots to the user is only shown available time slots. The component also validates booking request and forward validated requests to the booking handler.
+ The Availability checker filters generated time slots so that the user is only shown available time slots. The component also validates booking request and forwards validated requests to the booking handler.
 
 - [GUI](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-client)
 
 The GUI displays an interactive map allowing users to navigate to dentist practices
-and allow users to book an appointment at a chosen clinic.
+and allows users to book an appointment at a chosen clinic.
 
 
 
