@@ -63,9 +63,19 @@ The system is built around a map API which helps displays all clinics in Gothenb
  # Software Architecture 
 
  ## Architectural styles
-We use a mix of different architectural styles. The architectural styles we use are pub/sub, event-driven and client-server. Pub/sub will is used to enable components to publish and/or subscribe to different topics. Basically it’s the way components will communicate with each other. Event-driven is used with the MQTT being event mediator and components being event processors. Client-server style will be used to create separation between backend and frontend. 
+We use a mix of different architectural styles. The architectural styles we use are:
+- Publish/subscribe
 
-We base our backend on node.js and use mongoose to connect it to our mongoDB database. The frontend will be based on Vue.js 
+Pub/sub will is used to enable components to publish and/or subscribe to different topics. Basically it’s the way components  will communicate with each other.
+
+- Event-driven
+
+Event-driven is used with the MQTT being event mediator and components being event processors.
+
+- Client-server
+
+Client-server style will be used to create separation between backend and frontend. 
+ 
 
 ## Architectural drivers
   - Availability
@@ -98,6 +108,8 @@ Maintainability is also an architectural driver as it impacts the level of ease 
  ## Technologies
 
  ### Software
+
+ We base our backend on node.js and use mongoose to connect it to our mongoDB database. The frontend is based on Vue.js
   
  - [ NPM ](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing) 
  - [ Vue.js ](https://drive.google.com/drive/folders/1GLthbAZoj0aKaIgKPQe57GbSQ-Mt9-9g?usp=sharing)
