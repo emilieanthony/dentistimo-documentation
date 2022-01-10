@@ -24,9 +24,11 @@ The system is built around a map API which helps displays all clinics in Gothenb
 
  - [Booking handler](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/booking-handler)
 
+ The Booking handler creates new bookings and stores them in the database.
+
  - [Availability checking](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/availability-checker)
 
- The availability checker filters generated time slots to the user is only shown available time slots. The component also validates booking request and forward validated requests to the booking handler.
+ The Availability checker filters generated time slots to the user is only shown available time slots. The component also validates booking request and forward validated requests to the booking handler.
 
 - [GUI](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-client)
 
