@@ -128,7 +128,7 @@ Maintainability is also an architectural driver as it impacts the level of ease 
 We use a mix of different architectural styles. The architectural styles we use are:
 - **Publish/subscribe**
 
-Pub/sub will is used to enable components to publish and/or subscribe to different topics. Basically it’s the way components  will communicate with each other.
+Publish/subscribe is used  as a way for the components to communicate with each other publishing and/or subscribe to different topics. Subscribers in our system will receive all messages published to the topics to which they subscribe. The publisher is responsible for defining the topics to which subscribers can subscribe. The massaging between component goes through a broker, in our case MQTT.
 
 - **Event-driven**
 
