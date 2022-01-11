@@ -145,7 +145,9 @@ We use pipe filter architecture where the MQTT broker is the pipe and the compon
 ## Technical specification
 
  ### Fault tolerance
-  Taking into consideration that some sort of fault tolerance should be implemented into the system, the team selected Time-slot-generator as the   component and implement fault tolerance in form of a circuit breaker. The circuit breaker will aid the time-slot-generator in..
+Taking into consideration that some sort of fault tolerance should be implemented into the system, the team selected Time-slot-generator as the component and implement fault tolerance in form of a circuit breaker. The circuit breaker protects the component from being spammed while already being partly unavailable due to high load. We have also implemented a request generator to test the system's ability to handle high load. 
+
+
 
  ### Quality of service
 
