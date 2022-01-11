@@ -140,7 +140,7 @@ Client-server style will be used to create separation between backend and fronte
 
 - **Pipe-filter**
 
-We use pipe filter architecture where the MQTT broker is the pipe and the components are the filters. For example the availabilty checker transforms the data before forwarding it to the broker .
+We use pipe filter architecture where the MQTT broker is the pipe and the components are the filters. For example the availabilty checker transforms the data before forwarding it to the broker.
 
 ## Technical specification
 
