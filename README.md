@@ -132,7 +132,7 @@ Publish/subscribe is used  as a way for the components to communicate with each 
 
 - **Event-driven**
 
-Event-driven is used with the MQTT being event mediator and components being event processors.
+We use an event-driven architecture that uses events to trigger and communicate between the decoupled components which can asynchronously publish and subscribe to events via an event broker, in our case MQTT. An event is a change in state, or an update. An example where we use this is when a user pick a date and triggers the time slot generator to generates time slots. 
 
 - **Client-server**
 
