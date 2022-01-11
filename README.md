@@ -72,7 +72,7 @@ and allows users to book an appointment at a chosen clinic.
     - Cancelled due to choice of not allowing users to cancel their bookings
   7. The time slots should be visualised (color, symbol etc). <br>
     - Solved by only displaying available time slots to the user and the team therefore decided that colour visualisation was redundant. 
-  15. The system should allow the user to search/sort for an appointment. 
+  15. The system should allow the user to search/sort for an appointment. <br>
     - We decided not to implement a specific search function as we thought finding a clinic on the map and choosing a date was sufficient and would satisfy the needs of the user in terms of achieving their goal of booking an appointment.
 
 
