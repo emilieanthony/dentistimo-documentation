@@ -140,6 +140,8 @@ Client-server style will be used to create separation between backend and fronte
 
 - **Pipe-filter**
 
+We use pipe filter architecture where the MQTT broker is the pipe and the components are the filters. For example the availabilty checker transforms the data before forwarding it to the broker .
+
 ## Technical specification
 
  ### Fault tolerance
@@ -147,7 +149,7 @@ Client-server style will be used to create separation between backend and fronte
 
  ### Quality of service
 
-The components in the backend of this system use a QOS level 1 since we want to guarantee that the message is delivered at least once
+The components in the backend of this system use a QOS level 1 since we want to guarantee that the message is delivered at least once.
 
  ## Technologies
 
