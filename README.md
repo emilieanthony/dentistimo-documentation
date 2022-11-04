@@ -18,7 +18,7 @@ The system is built around a map API which helps displays all clinics in Gothenb
 
  The Clinic handler fetches dentist data, stores it in the database and publishes dentist data to the frontend.
 
- - [**Time slot generator**](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team5-time_slot_generator)
+ - [**Time slot generator**](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team5-time_slot_generator) (Only available on Gitlab)
 
  The Time slot generator generates time slots when a user choses a date in the GUI. 
 
@@ -30,7 +30,7 @@ The system is built around a map API which helps displays all clinics in Gothenb
 
  The Availability checker filters generated time slots so that the user is only shown available time slots. The component also validates booking request and forwards validated requests to the booking handler.
 
-- [**GUI**](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-client)
+- [**GUI**](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-client) (Only available on Gitlab)
 
 The GUI displays an interactive map allowing users to navigate to dentist practices
 and allows users to book an appointment at a chosen clinic.
