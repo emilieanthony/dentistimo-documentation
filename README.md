@@ -26,7 +26,7 @@ The system is built around a map API which helps displays all clinics in Gothenb
 
  The Booking handler creates new bookings and stores them in the database.
 
- - [**Availability checker**](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/availability-checker)
+ - [**Availability checker**](https://github.com/emilieanthony/availability-checker)
 
  The Availability checker filters generated time slots so that the user is only shown available time slots. The component also validates booking request and forwards validated requests to the booking handler.
 
