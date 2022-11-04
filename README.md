@@ -14,7 +14,7 @@ The system is built around a map API which helps displays all clinics in Gothenb
 
   A link is provided to the repositories of the components are provided. In each repository, a detailed description of each components responsibilities are also provided
 
- - [**Clinic handler**](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/team-5-clinics-service)
+ - [**Clinic handler**](https://github.com/emilieanthony/clinic-handler)
 
  The Clinic handler fetches dentist data, stores it in the database and publishes dentist data to the frontend.
 
