@@ -22,7 +22,7 @@ The system is built around a map API which helps displays all clinics in Gothenb
 
  The Time slot generator generates time slots when a user choses a date in the GUI. 
 
- - [**Booking handler**](https://git.chalmers.se/courses/dit355/test-teams-formation/team-5/booking-handler)
+ - [**Booking handler**](https://github.com/emilieanthony/booking-handler)
 
  The Booking handler creates new bookings and stores them in the database.
 
